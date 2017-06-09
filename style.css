@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+body {
+  font-family: Orbitron, Sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #676765; }
+
+p {
+  font-size: .75em;
+  margin-top: -30px;
+  margin-right: 25px;
+  display: none; }
+
+#display-frame, #display {
+  width: 270px;
+  height: 95px;
+  text-align: right;
+  margin-left: 12px;
+  margin-bottom: 5px; }
+
+#display {
+  font-size: 1.5em;
+  padding: 15px;
+  font-weight: bold;
+  width: 274px;
+  border: 2px solid #C3C2AB;
+  box-shadow: inset 2px 2px 2px 2px;
+  border-radius: 3px;
+  background-color: #C3C2AB;
+  opacity: .75; }
+
+#calc-frame {
+  background-color: #DFD8D0;
+  border: 2px solid #DFD8D0;
+  margin-top: 100px;
+  height: 460px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 2px 3px; }
+
+#button-frame {
+  margin-top: 5px;
+  margin-left: 12px;
+  width: 274px; }
+
+.buttons {
+  width: 50px;
+  display: block;
+  padding: 10px;
+  border: 1px solid;
+  box-shadow: 2px 2px;
+  font-size: 1.25em;
+  font-weight: bold; }
+
+#AC, #CE {
+  background-color: #ff1a1a; }
+
+#plus, #times, #divide, #minus {
+  background-color: #4d94ff; }
+
+#oh {
+  width: 125px; }
+
+#equals {
+  background-color: #33ff33;
+  height: 110px; }
+
+#last div {
+  margin-top: -60px; }
+
+/*# sourceMappingURL=style.css.map */
